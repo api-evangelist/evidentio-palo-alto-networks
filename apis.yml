@@ -1,8 +1,23 @@
 aid: evidentio-palo-alto-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/evidentio-palo-alto-networks.png
 name: Evident.io (Palo Alto Networks)
-description: 'Evident.io (Palo Alto Networks) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Evident.io was a cloud security posture management (CSPM) company whose Evident Security
+  Platform (ESP) continuously monitored AWS and other public-cloud accounts for misconfigurations and
+  compliance drift via an agentless, API-driven control engine. Palo Alto Networks acquired Evident.io
+  in March 2018 and folded the ESP technology into its Prisma Cloud offering; the standalone evident.io
+  brand, website, and ESP API have since been retired. Surfaced as a portfolio company of
+  bain-capital-ventures and tracked in the API Evangelist network as a security-sector lead.'
 url: https://raw.githubusercontent.com/api-evangelist/evidentio-palo-alto-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +27,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: acquired
+x-status-note: 'Acquired by Palo Alto Networks (2018); ESP technology absorbed into Prisma Cloud. Standalone
+  evident.io domain does not resolve (no A record) and no live API surface remains.'
 tags:
 - Company
 - Security
+- Cloud Security
+- CSPM
+- Compliance
+- Cloud Infrastructure
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
